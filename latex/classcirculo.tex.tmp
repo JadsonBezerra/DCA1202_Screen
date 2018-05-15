@@ -1,0 +1,88 @@
+\hypertarget{classcirculo}{}\section{circulo Class Reference}
+\label{classcirculo}\index{circulo@{circulo}}
+
+
+A classe circulo é derivada da classe figura.  
+
+
+
+
+{\ttfamily \#include $<$circulo.\+h$>$}
+
+
+
+Inheritance diagram for circulo\+:
+% FIG 0
+
+
+Collaboration diagram for circulo\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcirculo_aecacd0030ddc68deb2538f8efe272bcd}{circulo} (int \+\_\+x0, int \+\_\+y0, int \+\_\+r, bool \+\_\+fill=false)
+\begin{DoxyCompactList}\small\item\em O método circulo constrói o circulo. \end{DoxyCompactList}\item 
+void \hyperlink{classcirculo_ab344c1501d45e251f199cf43d75099ee}{draw} (\hyperlink{classscreen}{screen} \&tela)
+\begin{DoxyCompactList}\small\item\em O método draw desenha o circulo. \end{DoxyCompactList}\item 
+void \hyperlink{classcirculo_aed2a8e999255047cc050fe44899160e5}{set\+Circulo} (int \+\_\+x0, int \+\_\+y0, int \+\_\+r, bool \+\_\+fill=false)
+\begin{DoxyCompactList}\small\item\em O método setcirculo modifica os parâmetros do circulo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A classe circulo é derivada da classe figura. 
+
+serve para desenhar um circulo de raio \textquotesingle{}r\textquotesingle{} e de centro localizado em (x0,y0) 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{circulo@{circulo}!circulo@{circulo}}
+\index{circulo@{circulo}!circulo@{circulo}}
+\subsubsection[{\texorpdfstring{circulo(int \+\_\+x0, int \+\_\+y0, int \+\_\+r, bool \+\_\+fill=false)}{circulo(int _x0, int _y0, int _r, bool _fill=false)}}]{\setlength{\rightskip}{0pt plus 5cm}circulo\+::circulo (
+\begin{DoxyParamCaption}
+\item[{int}]{\+\_\+x0, }
+\item[{int}]{\+\_\+y0, }
+\item[{int}]{\+\_\+r, }
+\item[{bool}]{\+\_\+fill = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}\hypertarget{classcirculo_aecacd0030ddc68deb2538f8efe272bcd}{}\label{classcirculo_aecacd0030ddc68deb2538f8efe272bcd}
+
+
+O método circulo constrói o circulo. 
+
+Ele define os paramêtros recebidos pelo usuário 
+
+\subsection{Member Function Documentation}
+\index{circulo@{circulo}!draw@{draw}}
+\index{draw@{draw}!circulo@{circulo}}
+\subsubsection[{\texorpdfstring{draw(screen \&tela)}{draw(screen &tela)}}]{\setlength{\rightskip}{0pt plus 5cm}void circulo\+::draw (
+\begin{DoxyParamCaption}
+\item[{{\bf screen} \&}]{tela}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classcirculo_ab344c1501d45e251f199cf43d75099ee}{}\label{classcirculo_ab344c1501d45e251f199cf43d75099ee}
+
+
+O método draw desenha o circulo. 
+
+Esse método é derivado método virtual de draw da classe figura 
+
+Implements \hyperlink{classfigura_afc03801ba268364f556705d831b110ae}{figura}.
+
+\index{circulo@{circulo}!set\+Circulo@{set\+Circulo}}
+\index{set\+Circulo@{set\+Circulo}!circulo@{circulo}}
+\subsubsection[{\texorpdfstring{set\+Circulo(int \+\_\+x0, int \+\_\+y0, int \+\_\+r, bool \+\_\+fill=false)}{setCirculo(int _x0, int _y0, int _r, bool _fill=false)}}]{\setlength{\rightskip}{0pt plus 5cm}void circulo\+::set\+Circulo (
+\begin{DoxyParamCaption}
+\item[{int}]{\+\_\+x0, }
+\item[{int}]{\+\_\+y0, }
+\item[{int}]{\+\_\+r, }
+\item[{bool}]{\+\_\+fill = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}\hypertarget{classcirculo_aed2a8e999255047cc050fe44899160e5}{}\label{classcirculo_aed2a8e999255047cc050fe44899160e5}
+
+
+O método setcirculo modifica os parâmetros do circulo. 
+
+Ele define os novos paramêtros recebidos pelo usuário 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+circulo.\+h\item 
+circulo.\+cpp\end{DoxyCompactItemize}

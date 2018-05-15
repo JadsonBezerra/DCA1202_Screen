@@ -13,14 +13,14 @@ using namespace std;
 
 int main()
 {
-    vector <figura *> figuras;
+    list <figura *> figuras;
     ifstream fin;
     ofstream fout;
     string s;
     screen tela;
 
-    fin.open("/home/jadson/work/20181/PA/Screen/figura.txt");
-    fout.open("/home/jadson/work/20181/PA/Screen/tela.txt");
+    fin.open("/home/jadson/work/20181/PA/DCA1202_Screen/figura.txt");
+    fout.open("/home/jadson/work/20181/PA/DCA1202_Screen/tela.txt");
     if(!fin.is_open()||!fout.is_open()){
         throw "Erro de arquivo";
         exit(-1);

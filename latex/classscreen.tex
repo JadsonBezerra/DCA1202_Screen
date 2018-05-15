@@ -1,0 +1,103 @@
+\hypertarget{classscreen}{}\section{screen Class Reference}
+\label{classscreen}\index{screen@{screen}}
+
+
+A classe screen cria uma tela para desenho.  
+
+
+
+
+{\ttfamily \#include $<$screen.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classscreen_ad16be26c6e8e75af862a9106d4ed65a6}{screen} (int \+\_\+nl=0, int \+\_\+nc=0, char \+\_\+brush=\textquotesingle{}\#\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em O método screen constrói a tela. \end{DoxyCompactList}\item 
+void \hyperlink{classscreen_a42656b68b610befe9da6416b865f1286}{set\+Tam} (int \+\_\+nl, int \+\_\+nc)
+\begin{DoxyCompactList}\small\item\em O método set\+Tam modifica os parâmetros da tela. \end{DoxyCompactList}\item 
+void \hyperlink{classscreen_aed0ef55e91ba2915c9dfe236193f311d}{set\+Pixel} (int x, int y)\hypertarget{classscreen_aed0ef55e91ba2915c9dfe236193f311d}{}\label{classscreen_aed0ef55e91ba2915c9dfe236193f311d}
+
+\begin{DoxyCompactList}\small\item\em O método set\+Pixel modifica o caracter do pixel. \end{DoxyCompactList}\item 
+void \hyperlink{classscreen_a5347be7d08190bf905384196da69fc44}{clear} ()\hypertarget{classscreen_a5347be7d08190bf905384196da69fc44}{}\label{classscreen_a5347be7d08190bf905384196da69fc44}
+
+\begin{DoxyCompactList}\small\item\em O método clear limpa a tela. \end{DoxyCompactList}\item 
+void \hyperlink{classscreen_aaa6ee5aa8be3ec4257d383a3a83bb4e8}{set\+Brush} (char b)
+\begin{DoxyCompactList}\small\item\em O método set\+Brush modifica o pincel. \end{DoxyCompactList}\item 
+int \hyperlink{classscreen_ae327deedb0df15256bef370d6c53f015}{get\+Colunas} ()\hypertarget{classscreen_ae327deedb0df15256bef370d6c53f015}{}\label{classscreen_ae327deedb0df15256bef370d6c53f015}
+
+\begin{DoxyCompactList}\small\item\em O método get\+Colunas ele retorna a quantidade de colunas. \end{DoxyCompactList}\item 
+int \hyperlink{classscreen_a0ed5e8e976fbe482750507c1e203a236}{get\+Linhas} ()\hypertarget{classscreen_a0ed5e8e976fbe482750507c1e203a236}{}\label{classscreen_a0ed5e8e976fbe482750507c1e203a236}
+
+\begin{DoxyCompactList}\small\item\em O método get\+Linhas ele retorna a quantidade de linhas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \hyperlink{classscreen_ab0ed241d55be90e14c1905d4a42612c4}{operator$<$$<$} (ostream \&os, const \hyperlink{classscreen}{screen} \&t)
+\begin{DoxyCompactList}\small\item\em O método serve para realizar impressão. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A classe screen cria uma tela para desenho. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{screen@{screen}!screen@{screen}}
+\index{screen@{screen}!screen@{screen}}
+\subsubsection[{\texorpdfstring{screen(int \+\_\+nl=0, int \+\_\+nc=0, char \+\_\+brush=\textquotesingle{}\#\textquotesingle{})}{screen(int _nl=0, int _nc=0, char _brush='#')}}]{\setlength{\rightskip}{0pt plus 5cm}screen\+::screen (
+\begin{DoxyParamCaption}
+\item[{int}]{\+\_\+nl = {\ttfamily 0}, }
+\item[{int}]{\+\_\+nc = {\ttfamily 0}, }
+\item[{char}]{\+\_\+brush = {\ttfamily \textquotesingle{}\#\textquotesingle{}}}
+\end{DoxyParamCaption}
+)}\hypertarget{classscreen_ad16be26c6e8e75af862a9106d4ed65a6}{}\label{classscreen_ad16be26c6e8e75af862a9106d4ed65a6}
+
+
+O método screen constrói a tela. 
+
+Ele define os paramêtros recebidos pelo usuário 
+
+\subsection{Member Function Documentation}
+\index{screen@{screen}!set\+Brush@{set\+Brush}}
+\index{set\+Brush@{set\+Brush}!screen@{screen}}
+\subsubsection[{\texorpdfstring{set\+Brush(char b)}{setBrush(char b)}}]{\setlength{\rightskip}{0pt plus 5cm}void screen\+::set\+Brush (
+\begin{DoxyParamCaption}
+\item[{char}]{b}
+\end{DoxyParamCaption}
+)}\hypertarget{classscreen_aaa6ee5aa8be3ec4257d383a3a83bb4e8}{}\label{classscreen_aaa6ee5aa8be3ec4257d383a3a83bb4e8}
+
+
+O método set\+Brush modifica o pincel. 
+
+Ele modifica o caracter que sairá na tela \index{screen@{screen}!set\+Tam@{set\+Tam}}
+\index{set\+Tam@{set\+Tam}!screen@{screen}}
+\subsubsection[{\texorpdfstring{set\+Tam(int \+\_\+nl, int \+\_\+nc)}{setTam(int _nl, int _nc)}}]{\setlength{\rightskip}{0pt plus 5cm}void screen\+::set\+Tam (
+\begin{DoxyParamCaption}
+\item[{int}]{\+\_\+nl, }
+\item[{int}]{\+\_\+nc}
+\end{DoxyParamCaption}
+)}\hypertarget{classscreen_a42656b68b610befe9da6416b865f1286}{}\label{classscreen_a42656b68b610befe9da6416b865f1286}
+
+
+O método set\+Tam modifica os parâmetros da tela. 
+
+Ele define os novos paramêtros recebidos pelo usuário 
+
+\subsection{Friends And Related Function Documentation}
+\index{screen@{screen}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!screen@{screen}}
+\subsubsection[{\texorpdfstring{operator$<$$<$}{operator<<}}]{\setlength{\rightskip}{0pt plus 5cm}ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{ostream \&}]{os, }
+\item[{const {\bf screen} \&}]{t}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}\hypertarget{classscreen_ab0ed241d55be90e14c1905d4a42612c4}{}\label{classscreen_ab0ed241d55be90e14c1905d4a42612c4}
+
+
+O método serve para realizar impressão. 
+
+Ele é uma sobrecarga do operador $<$$<$ para realizar a impressão 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+screen.\+h\item 
+screen.\+cpp\end{DoxyCompactItemize}
