@@ -22,7 +22,7 @@ int main()
     fin.open("/home/jadson/work/20181/PA/DCA1202_Screen/figura.txt");
     fout.open("/home/jadson/work/20181/PA/DCA1202_Screen/tela.txt");
     if(!fin.is_open()||!fout.is_open()){
-        throw "Erro de arquivo";
+        cout<< "Erro de arquivo";
         exit(-1);
     }
 
