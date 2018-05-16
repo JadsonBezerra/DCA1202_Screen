@@ -64,6 +64,12 @@ int main()
             figuras.push_back(new circulo(x0,y0,r,fill));
             cout<<cmd<<endl;
           }
+        if(cmd.compare("pixel")==0){
+            int x0, y0;
+            sstream >>x0>> y0;
+            figuras.push_back(new circulo(x0,y0,0,1));
+            cout<<cmd<<endl;
+          }
       }
     }
 

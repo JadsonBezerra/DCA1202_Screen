@@ -10,18 +10,16 @@ reta::reta(int _x0, int _y0, int _x1, int _y1)
 
 void reta::draw(screen &tela)
 {
-    int x,y,i,Tamanho;
+    int i,Tamanho;
     float Delta_x,Delta_y;
+    float x,y;
     x=x1;
-    y=y2;
-    if( abs(x2 - x1) > abs(y2 - y1))
-          Tamanho = abs(x2 - x1);
-     else
-          Tamanho = abs(y2 - y1);
+    y=y1;
+    Tamanho = ( abs(x2 - x1) > abs(y2 - y1))?abs(x2 - x1):abs(y2 - y1);
      Delta_x =(float) (x2 - x1)/Tamanho;
      Delta_y =(float) (y2 - y1)/Tamanho;
      i = 1;
-     while(i < Tamanho){
+     while(i<=Tamanho){
        tela.setPixel(round(x), round(y));
        x = x + Delta_x;
        y = y + Delta_y;
