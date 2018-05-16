@@ -13,7 +13,7 @@ using namespace std;
 
 int main()
 {
-    list <figura *> figuras;
+    vector <figura *> figuras;
     ifstream fin;
     ofstream fout;
     string s;
@@ -76,8 +76,13 @@ int main()
     for(auto it:figuras){
         it->draw(tela);
      }
-
+    for(int i=0; i<figuras.size(); i++){
+        delete figuras[i];
+      }
     cout<<tela;
     fout<<tela;
+    fin.close();
+    fout.close();
+
     return 0;
 }
